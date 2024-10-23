@@ -1,0 +1,1 @@
+import{a8 as r,a9 as u}from"./index.272fa8aa.js";const s={name:String};function m(n={}){return(t,a,e)=>{t[a](u("input",{class:"hidden"+(e||""),...n.value}))}}function c(n){return r(()=>n.name||n.for)}export{m as a,c as b,s as u};
