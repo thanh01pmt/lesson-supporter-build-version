@@ -1,0 +1,1 @@
+import{a as o}from"./axios.9ab26c22.js";const s=o.create({baseURL:{}.API_URL||"http://localhost:3000",timeout:1e4,headers:{"Content-Type":"application/json"}});s.interceptors.response.use(e=>e,e=>(e.response?console.error("Server Error:",e.response.data):e.request&&console.error("Connection Error:",e.request),Promise.reject(e)));export{s as api};
