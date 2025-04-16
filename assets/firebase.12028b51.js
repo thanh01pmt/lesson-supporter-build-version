@@ -1,0 +1,1 @@
+import{b as s,f as t,V as o,d as u,a as f,c as r}from"./index.037f850d.js";import{a as c,d as l,c as h}from"./index.037f850d.js";var i=s(({app:a,VueFire:e})=>{a.use(e,{firebaseApp:t,modules:[o()]}),a.provide("defaultDb",u),a.provide("auth",f),a.provide("functions",r)});export{c as auth,i as default,l as defaultDb,h as functions};
